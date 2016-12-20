@@ -1,0 +1,109 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		B70761181AD90063004A8AAB /* SerialFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SerialFunctions.h; sourceTree = "<group>"; };
+		B713917D1AD0EB8800486935 /* LED.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LED.cpp; sourceTree = "<group>"; };
+		B713917E1AD0EB8800486935 /* LED.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LED.h; sourceTree = "<group>"; };
+		B713917F1AD0F1F000486935 /* Motor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Motor.cpp; sourceTree = "<group>"; };
+		B71391801AD0F1F000486935 /* Motor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Motor.h; sourceTree = "<group>"; };
+		B713918A1AD10C7300486935 /* Transmitter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Transmitter.cpp; sourceTree = "<group>"; };
+		B713918B1AD10C7300486935 /* Transmitter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Transmitter.h; sourceTree = "<group>"; };
+		B71C2B591AFA62B000A62920 /* EEPROMStorageUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EEPROMStorageUtil.h; sourceTree = "<group>"; };
+		B75CF6831AFA66CF00E693A4 /* Variables.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Variables.h; sourceTree = "<group>"; };
+		B75CF6841AFA67F300E693A4 /* Includes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Includes.h; sourceTree = "<group>"; };
+		B7D50C061AD1CE740099F254 /* Kushal_Quadcopter.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = Kushal_Quadcopter.ino; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		B7D6C0FB1AD3180300247D52 /* IMU.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IMU.cpp; sourceTree = "<group>"; };
+		B7D6C0FC1AD3180300247D52 /* IMU.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMU.h; sourceTree = "<group>"; };
+		B7D6C0FD1AD3194100247D52 /* BMA180.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMA180.h; sourceTree = "<group>"; };
+		B7D6C0FE1AD31F7700247D52 /* I2C.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = I2C.cpp; sourceTree = "<group>"; };
+		B7D6C0FF1AD31F7700247D52 /* I2C.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = I2C.h; sourceTree = "<group>"; };
+		B7D6C1001AD3202700247D52 /* BMA180.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BMA180.cpp; sourceTree = "<group>"; };
+		B7D6C1011AD3237800247D52 /* ITG3200.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ITG3200.cpp; sourceTree = "<group>"; };
+		B7D6C1021AD3237800247D52 /* ITG3200.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITG3200.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		B7E3AF711A90634A00E8F978 = {
+			isa = PBXGroup;
+			children = (
+				B75CF6841AFA67F300E693A4 /* Includes.h */,
+				B75CF6831AFA66CF00E693A4 /* Variables.h */,
+				B71C2B591AFA62B000A62920 /* EEPROMStorageUtil.h */,
+				B70761181AD90063004A8AAB /* SerialFunctions.h */,
+				B7D6C1011AD3237800247D52 /* ITG3200.cpp */,
+				B7D6C1021AD3237800247D52 /* ITG3200.h */,
+				B7D6C0FE1AD31F7700247D52 /* I2C.cpp */,
+				B7D6C0FF1AD31F7700247D52 /* I2C.h */,
+				B7D6C0FD1AD3194100247D52 /* BMA180.h */,
+				B7D6C1001AD3202700247D52 /* BMA180.cpp */,
+				B7D6C0FB1AD3180300247D52 /* IMU.cpp */,
+				B7D6C0FC1AD3180300247D52 /* IMU.h */,
+				B7D50C061AD1CE740099F254 /* Kushal_Quadcopter.ino */,
+				B713918A1AD10C7300486935 /* Transmitter.cpp */,
+				B713918B1AD10C7300486935 /* Transmitter.h */,
+				B713917F1AD0F1F000486935 /* Motor.cpp */,
+				B71391801AD0F1F000486935 /* Motor.h */,
+				B713917D1AD0EB8800486935 /* LED.cpp */,
+				B713917E1AD0EB8800486935 /* LED.h */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		B7E3AF721A90634A00E8F978 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+			};
+			buildConfigurationList = B7E3AF751A90634A00E8F978 /* Build configuration list for PBXProject "Kushal Quadcopter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B7E3AF711A90634A00E8F978;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		B7E3AF761A90634A00E8F978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		B7E3AF771A90634A00E8F978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7E3AF751A90634A00E8F978 /* Build configuration list for PBXProject "Kushal Quadcopter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E3AF761A90634A00E8F978 /* Debug */,
+				B7E3AF771A90634A00E8F978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7E3AF721A90634A00E8F978 /* Project object */;
+}
